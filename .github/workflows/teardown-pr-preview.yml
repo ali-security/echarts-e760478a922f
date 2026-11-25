@@ -1,8 +1,7 @@
 name: Teardown PR Preview
 
 on:
-  pull_request_target:
-    types: [closed]
+  workflow_dispatch: {}
 
 jobs:
   teardown-pr-preview:

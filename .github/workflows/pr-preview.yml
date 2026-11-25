@@ -1,9 +1,7 @@
 name: Deploy PR Preview
 
 on:
-  workflow_run:
-    workflows: ['Node CI']
-    types: [completed]
+  workflow_dispatch: {}
 
 jobs:
   on-success:

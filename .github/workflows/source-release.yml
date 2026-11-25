@@ -1,8 +1,7 @@
 name: Source Release
 
 on:
-  release:
-    types: [prereleased]
+  workflow_dispatch: {}
 
 jobs:
   materials:
